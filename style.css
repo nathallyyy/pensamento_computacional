@@ -1,0 +1,35 @@
+{
+    padding: 0;
+    margin: 0;
+   }
+   
+   h1{
+    color: rgb(100, 69, 129);
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+   }
+   body{
+    background-color: rgb(62, 130, 185);
+   
+   }
+   
+   p{
+    margin-left: 20px;
+    fort-size: 25px;
+    text-align: justify;
+   }
+   
+   h2,h3{
+    text-align: center;
+    fort-size: 30px;
+    text-transform: uppercase;
+   }
+   iframe{
+    margin-left: 500px;
+   }
+   li{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+   }
