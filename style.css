@@ -1,9 +1,44 @@
-{
+*{
     padding: 0;
     margin: 0;
    }
+   /*header*/
+
+   header{
+     background: linear-gradient(#f0f0f0,#c0c0c0);
+     padding-top: 15px;
+   }
+
+   .cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+   }
    
-   h1{
+   #logo:hover{
+transition: 1s;
+transform: scale(1.1);
+   }
+
+   nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+   }
+
+   nav li{
+    display: inline;
+    margin-left:15px ;
+   }
+
+   nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+   }
+
+   .titulo-principal{
     color: rgb(100, 69, 129);
     text-align: center;
     font-size: 32px;
