@@ -31,12 +31,21 @@ transform: scale(1.1);
     margin-left:15px ;
    }
 
+   nav a:hover{
+    transition: 0.2s;
+    color: #473e3b;
+    text-decoration: underline;
+   }
+
    nav a{
     text-transform: uppercase;
     color: black;
     font-size: 30px;
     text-decoration: none;
    }
+
+   /*fim do header*/
+   
 
    .titulo-principal{
     color: rgb(100, 69, 129);
