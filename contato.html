@@ -52,6 +52,38 @@
                 required placeholder="(xx)xxxxx-xxxx">
 
                 <label for="mesagem">Mensagem</label>
+                <textarea cols="70" rows="5" id="mensagem" placeholder="Ex.: Gostaria de agendar um corte de cabelo e barba para o próximo sábado."></textarea>
+                <fieldset>
+                    <legend>Em qual horario prefere seu atendimento</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email">
+                        Email
+                    </label>
+                    <label for="radio-telefone">
+                        <input type="radio" nome="contato" value="telefone" id="radio-telefone">
+                        Telefone
+                    </label>
+
+                    <label for="radio-whatssapp">
+                        <input type="radio" nome="contato" value="whatsapp" id="radio-whatssapp" checked>
+                        Whatsapp
+                    </label>
+                </fieldset>
+                <label class="checked"> Gostaria de receber nossas novidades por Email?
+
+                    <input type="checkbox" checked>
+                </label>
+
+                <input class="enviar" type="submit" value="Enviar">
 
             </form>
         </main>
