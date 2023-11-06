@@ -50,3 +50,9 @@ select{
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.enviar:hover{
+    transition: 0.5s;
+    background-color: rgb(91, 97, 128);
+    transform: scale(1.1);
+}
