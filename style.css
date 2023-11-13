@@ -1,104 +1,104 @@
 *{
-    padding: 0;
-    margin: 0;
-   }
-   /*header*/
+    padding: 0px;
+    margin: 0px;
+}
+/*header*/
 
-   header{
-     background: linear-gradient(#f0f0f0,#c0c0c0);
-     padding-top: 15px;
-   }
+header{
+ background: linear-gradient(#f0f0f0,#c0c0c0);
+ padding-top: 15px;
+}
 
-   .cabecalho{
+.cabecalho{
     position: relative;
     width: 940px;
     margin: 0 auto;
-   }
-   
-   #logo:hover{
-transition: 1s;
-transform: scale(1.1);
-   }
+}
 
-   nav{
+#logo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+nav{
     position: absolute;
-    top: 110px;
+    top:110px;
     right: 0;
-   }
+}
 
-   nav li{
+nav li{
     display: inline;
-    margin-left:15px ;
-   }
+    margin-left: 15px;
+}
 
-   nav a:hover{
+nav a:hover{
     transition: 0.2s;
-    color: #473e3b;
+    color:#473e3b;
     text-decoration: underline;
-   }
+}
 
-   nav a{
+nav a {
     text-transform: uppercase;
-    color: black;
+    color:black;
     font-size: 30px;
+    font-weight: bold;
     text-decoration: none;
-   }
+}
+/*fim do header*/   
 
-   /*fim do header*/
-   
-
-   .titulo-principal{
-    color: rgb(100, 69, 129);
+.titulo-principal{
+    color:rgb(129, 119, 139);
     text-align: center;
     font-size: 32px;
     text-transform: uppercase;
-   }
-   body{
-    background-color: rgb(62, 130, 185);
-   
-   }
-   
-   p{
+}
+
+body{
+    background-color: #f0f0f0;
+    
+}
+
+p{
     margin-left: 20px;
-    fort-size: 25px;
+    font-size: 25px;
     text-align: justify;
-   }
-   
-   h2,h3{
+}
+
+h2,h3{
     text-align: center;
-    fort-size: 30px;
+    font-size: 30px;
     text-transform: uppercase;
-   }
-   iframe{
+}
+ iframe{
     margin-left: 500px;
-   }
-   li{
+ }
+ li{
     margin-left: 40px;
     text-transform: uppercase;
     font-size: 25px;
-   }
+ }
 
-   /*footer*/
+ /*footer*/
 
-   footer{
+ footer{
     text-align: center;
     background-image: url(bg.jpg);
     padding: 15px 0px;
-   }
+ }
 
-   .redes a{
+ .redes a{
     margin: 0 10px;
     text-decoration: none;
-   }
+ }
 
-   .redes img:hover{
+ .redes img:hover{
     transition: 0.5s;
     transform: scale(1.1);
-    opacity: 60%;
-   }
+    opacity:60%;
+ }
 
-   .copyright{
+ .copyright{
     font-size: 13px;
     color: white;
     margin-top: 15px;
-   }
+ }

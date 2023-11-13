@@ -11,104 +11,112 @@
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-    <header>
-        <div class="cabecalho">
-             <h1>
-                 <a href="index.html" title="Página inicial">
-                    <img src="logo.png" alt="logo da barbearia alura na cor preta."
-                    width="177" height="250" id="logo">
-                </a>
-        
+<header>
+    <div class="cabecalho">
+        <h1>
+            <a href="index.html" title = "Página inicial">
+                <img src="logo.png" alt ="logo da barbearia alura na cor preta."
+                width="177" height="250" id="logo">
+            </a>
             </h1>
-              <nav>
+        
+            <nav>
                 <ul>
                     <li>
-        
                         <a href="index.html"> Home</a>
                     </li>
-                    <li> 
-                        <a href="produtos.html"> Produtos</a>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
                     </li>
                     <li>
                         <a href="contato.html">Contato</a>
                     </li>
                 </ul>
-              </nav>
+            </nav>
         </div>
         </header>
-        <main>
-            <form>
-                <p>Os campos com * são obrigatórios!</p>
-                <label for="nomecompleto">Nome completo*</label>
-                <input class="input-padrao" type="text" id="nomecompleto"
-                requinred placeholder="Nome e Sobrenome">
+<main>
+    <form>
+        <p>Os campos com * são obrigatórios!</p>
+        <label for="nomecompleto"> Nome completo*</label>
+        <input class="input-padrao" type="text" id="nomecompleto"
+        required placeholder="Nome e Sobrenome">
 
-                <label for="email">Email*</label>
-                <input class="input-padrao" type="email" id="email"
-                required placeholder="seuemail@dominio.com">
+        <label for="email">Email*</label>
+        <input class="input-padrao" type="email" id="email"
+        required placeholder="seuemail@dominio.com">
 
-                <label for="telefone">Telefone</label>
-                <input class="input-padrao" type="tel" id="telefone"
-                required placeholder="(xx)xxxxx-xxxx">
+        <label for="telefone">Telefone</label>
+        <input class="input-padrao" type="tel" id="telefone"
+        required placeholder="(xx)xxxxx-xxxx">
 
-                <label for="mesagem">Mensagem</label>
-                <textarea cols="70" rows="5" id="mensagem" placeholder="Ex.: Gostaria de agendar um corte de cabelo e barba para o próximo sábado."></textarea>
-                <fieldset>
-                    <legend>Em qual horario prefere seu atendimento</legend>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </fieldset>
+        <label for="mesagem">Mensagem</label>
+        <textarea cols="70" rows="5" id="mensagem" placeholder="Ex.:
+        Gostaria de agendar um corte de cabelo e barba para o 
+        próximo sábado."></textarea>
+        <fieldset>
+            <legend>Em qual horario prefere seu atendimento</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fieldset>
 
-                <fieldset>
-                    <legend>Como prefere o nosso contato?</legend>
-                    <label for="radio-email">
-                        <input type="radio" name="contato" value="email" id="radio-email">
-                        Email
-                    </label>
-                    <label for="radio-telefone">
-                        <input type="radio" nome="contato" value="telefone" id="radio-telefone">
-                        Telefone
-                    </label>
+        <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="email"
+                id="radio-email">
+                Email
+            </label>
+            <label for="radio-telefone">
+                <input type="radio" nome="contato" value="telefone"
+                id="radio-telefone">
+                Telefone
+            </label>
 
-                    <label for="radio-whatssapp">
-                        <input type="radio" nome="contato" value="whatsapp" id="radio-whatssapp" checked>
-                        Whatsapp
-                    </label>
-                </fieldset>
-                <label class="checked"> Gostaria de receber nossas novidades por Email?
+            <label for="radio-whatsapp">
+                <input type="radio" nome="contato" value="whatsapp"
+                id="radio-whatsapp" checked>
+                WhastsApp
+            </label>
+        </fieldset>
+        <label class="checked"> Gostaria de receber nossas novidades
+            por Email?
+        
+        <input type="checkbox" checked>
+    </label>
 
-                    <input type="checkbox" checked>
-                </label>
+    <input class="enviar" type="submit" value="Enviar">
 
-                <input class="enviar" type="submit" value="Enviar">
+    </form>
+</main>
 
-            </form>
-        </main>
-
-        <footer>
-            <div class="logo-footer"></div>
-            <img src="logo-branco.png" alt="logo da barbearia Alura na cor branca" width="45" height="45">
-            </div>
-            
-            <div class="redes">
-                <a href="https://github.com/nathallyyy"
-                title="nathallyyy | github" target="_blank">
-            <img src="github-logo.png" alt="logo do github" width="45" height="45">
-            </a>
-            <a href="https://www.instagam.com/nathalysilva__"
-            title="nathalysilva__ | instagram" target="_blank"></a>
-            <img src="instagram-logo.png" alt="logo do instagram" width="45" height="45">
-            </a>
-            </div>
-            
-            <div class="copyrigth"> Desenvolvido por Nathaly</div>
-            <div class="copyrigth">&copy; copyrigth Barbearia Alura - 2023</div>
-            
-            </footer>
-
+<footer>
+    <div class="logo-footer">
+        <img src="logo-branco.png" alt="logo da barbearia Alura 
+        na cor branca" width="45" height="45">
+    </div>
+    
+    <div class="redes">
+        <a href="https://github.com/professorjulianosilva"
+        title="professorjulianosilva | github" target="_blank">
+    <img src="github-logo.png" alt="logo do github" width="45" 
+    height="45">
+    </a>
+    
+    <a href="https://www.instagram.com/julianosilva17" 
+    title="nome-usuario | instagram " target="_blank">
+    <img src="instagram-logo.png" alt="logo do instagram" width="45"
+    height="45">
+    </a>
+    </div>
+    
+    <div class="copyright"> Desenvolvido por Juliano Silva</div>
+    <div class="copyright">&copy; copyright Barbearia Alura - 2023</div>
+    
+       </footer>
 
 </body>
 </html>
