@@ -46,8 +46,8 @@ nav a {
 }
 
 #banner{
-    width: 100%
-    heigth: auto
+    width: 100%;
+    height: auto;
 }
     
 #utensilios{
@@ -57,19 +57,70 @@ nav a {
     margin: auto 15px 15px auto ;
     border: 1px solid #473e3b;
 }
+
 #utensilios:hover{
     transition: 0.5s;
     box-shadow: 3px 3px 2px #473e3b;
     opacity: 75%;
 }
+
 .localizacao{
     padding: 3rem 0;
 }
+
 .localizacao p{
     margin-bottom: 2rem;
     text-align: center;
 }
 
+.mapa{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.beneficcios{
+    padding: 3em 0;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 10px auto;
+}
+
+.lista-beneficios{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.2;
+}
+
+.intens:first-child{
+    font-weight: bold;
+}
+
+.itens::before{
+    font-weight: bold;
+    content: "\2730";
+}
+
+#imagem-benficios{
+    opacity: 75%;
+    width: 54.2%;
+    height: auto;
+}
+
+#imagem-beneficios:hover{
+    transition: 0.5s;
+    opacity: 100%;
+    box-shadow: 10px 12px 5px #473e3b;
+}
+.videos{
+    width: 560px;
+    margin: 3rem auto;
+}
 
 /*fim do header*/   
 
