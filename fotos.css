@@ -1,0 +1,19 @@
+.imagens-passando{
+    width: 703px;
+    height: 850px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.imagens-passando ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.imagens-passando li {
+position: relative;
+animation: slide 15s infinite ease-out;
+}
